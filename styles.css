@@ -1,0 +1,70 @@
+body {
+  font-family: "happy monkey", cursive;
+  text-align: center;
+  background-image: url("images/Background.avif");
+  background-size: contain;
+}
+
+.flex-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  text-shadow: 4px 4px 3px #040c0c;
+  color: #64fffc;
+  background-color: #044041;
+
+  padding: 15px 50px;
+  border-radius: 100px;
+}
+
+.gift-title {
+  text-shadow: 2px 2px 2px #040c0c;
+  color: #fff5e0;
+  background-color: #df3448;
+
+  margin-bottom: 0px;
+  padding: 15px 50px;
+  border-radius: 100px;
+}
+
+.gift-hint {
+  text-shadow: 2px 2px 2px #040c0c;
+  color: #fff5e0;
+  background-color: #df3448;
+
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+
+.margin {
+  margin-top: 60px;
+}
+
+#lil {
+  width: 180px;
+  border: 8px solid #f9547d;
+  border-radius: 50%;
+}
+
+.gift-box {
+  background-image: url("images/Gift.png");
+  background-size: cover;
+
+  width: 450px;
+  height: 500px;
+  margin-top: 15px;
+  border: 8px solid #f9547d;
+  border-radius: 8%;
+}
+#congrats-gift:hover {
+  background-image: url("images/pewds-party.gif");
+}
+
+#amazoncard-gift:hover {
+  background-image: url("images/rickroll-roll.gif");
+}
